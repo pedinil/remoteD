@@ -1,0 +1,56 @@
+/* Add this to a separate CSS file or use inline styles */
+
+/* Container styles */
+.Container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Paper styles */
+.Paper {
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 15px; /* Add border-radius for curved appearance */
+}
+
+/* Form styles */
+.form {
+  margin-bottom: 20px;
+}
+
+/* Grid styles */
+.Grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 16px;
+}
+
+/* Textfield styles */
+.TextField {
+  width: 100%;
+  border-radius: 8px; /* Add border-radius for curved appearance */
+}
+
+/* Button styles */
+.Button {
+  margin-top: 16px;
+  border-radius: 8px; /* Add border-radius for curved appearance */
+}
+
+/* DataGrid container styles */
+.DataGridContainer {
+  margin-top: 20px;
+}
+
+/* DataGrid styles */
+.DataGrid {
+  height: 400px; /* Set a fixed height or adjust as needed */
+  border-radius: 15px; /* Add border-radius for curved appearance */
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .Grid {
+    grid-template-columns: 1fr;
+  }
+}

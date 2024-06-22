@@ -3,8 +3,8 @@ Docker Compose Setup for Frontend-Backend Application
 
 This Docker Compose configuration sets up a simple frontend-backend application with the following services:
 
--   frontend: React application served on port 3000.
--   backend: Backend server running on port 5001.
+-   frontend: Framework React and application served on port 3000 
+-   backend: Programing language Python and Backend server running on port 5001.
 
 Prerequisites
 -------------
